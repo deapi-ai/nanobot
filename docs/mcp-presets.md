@@ -51,6 +51,7 @@ Browser OAuth presets open your provider's sign-in page directly. API-key preset
 | Higgsfield | Browser OAuth | [Official guide](https://higgsfield.ai/creator-hub/help-center/integrations/what-is-higgsfield-mcp) |
 | OpenArt | Browser OAuth | [Official guide](https://openart.ai/mcp/) |
 | Runway | Browser OAuth | [Official guide](https://help.runwayml.com/hc/en-us/articles/51931843164691-Connecting-to-Runway-MCP) |
+| deAPI | API key | [Official guide](https://docs.deapi.ai/execution-modes-and-integrations/mcp-server) |
 | PostHog | Browser OAuth | [Official guide](https://posthog.com/docs/model-context-protocol/codex) |
 | Amplitude | Browser OAuth | [Official guide](https://amplitude.com/docs/amplitude-ai/amplitude-mcp) |
 | Statsig | Browser OAuth | [Official guide](https://docs.statsig.com/integrations/mcp/manual-setup) |

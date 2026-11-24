@@ -995,6 +995,37 @@
     "note": "Generations use your Runway workspace credits."
   },
   {
+    "name": "deapi",
+    "display_name": "deAPI",
+    "category": "media",
+    "description": "Generate images, video, speech, and music, and transcribe audio and video links.",
+    "docs_url": "https://docs.deapi.ai/execution-modes-and-integrations/mcp-server",
+    "transport": "streamableHttp",
+    "install_supported": true,
+    "brand_domain": "deapi.ai",
+    "brand_color": "#FFBA00",
+    "server": {
+      "type": "streamableHttp",
+      "url": "https://mcp.deapi.ai/mcp?source=nanobot",
+      "tool_timeout": 120
+    },
+    "fields": [
+      {
+        "name": "deapi_api_key",
+        "label": "deAPI API key",
+        "target": [
+          "header",
+          "Authorization"
+        ],
+        "env_var": "DEAPI_API_KEY",
+        "placeholder": "sk-dp-...",
+        "value_prefix": "Bearer "
+      }
+    ],
+    "requires": "deAPI API key",
+    "note": "Generations use your deAPI account balance."
+  },
+  {
     "name": "posthog",
     "display_name": "PostHog",
     "category": "analytics",
